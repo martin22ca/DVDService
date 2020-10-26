@@ -28,6 +28,9 @@ public class FilmService {
 		
 		FilmResponseDto dto = new FilmResponseDto();
 		dto.setTitle(film.getTitle());
+		dto.setSynopsis(film.getSynopsis());
+		dto.setGenre(film.getGenre());
+		dto.setYear(film.getYear());
 		
 		return dto;
 		
